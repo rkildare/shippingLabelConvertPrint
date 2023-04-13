@@ -1,0 +1,14 @@
+I would recomend isolating these dependancies to a venv; mainly because there seems to be a few tkdnd wrappers out there and I'm not sure if installing multiple would cause any issues. So just to be on the safe side, isolate this one.
+
+Required:
+
+pip install pywin32
+pip install pillow #Also known as PIL
+pip install pymupdf #This is fitz
+pip install python-tkdnd
+
+---------------------
+Optional:
+
+pip install pyinstaller
+pyinstaller --onefile --noconsole --icon=myIcon.ico --collect-all tkinterDnD labelConvertPrint.py

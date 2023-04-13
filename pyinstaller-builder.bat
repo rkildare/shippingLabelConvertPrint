@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --icon=myIcon.ico --collect-all tkinterDnD labelConvertPrint.py

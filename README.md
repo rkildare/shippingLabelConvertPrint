@@ -3,7 +3,7 @@ Python tool used to extract, crop, and print 4"x6" shipping labels (for use with
 
 
 # General Info
-The code is was thrown together and is pretty rough at the moment but I've commented throughout the code to relay the general workflow of the code in its current state.
+The code is was thrown together and is pretty rough at the moment but I've commented throughout to relay the general workflow in its current state.
 
 Currently this (may) only work for UPS labels. I'll verify or add support for FedEx next time I ship something through them.
 
